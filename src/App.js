@@ -1,15 +1,13 @@
 import React from "react";
+import Main from "./components/main/Main"
 // import logo from './logo.svg';
 // import './App.css';
 
 function App() {
   return (
-      <div>
-        <h1>ура!!!!</h1>
-        <p>
-          Антон и Настя
-        </p>
-      </div>
+      <>
+        <Main/>
+      </>
     
   );
 }
