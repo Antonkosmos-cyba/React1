@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Aventador;
+  src: url(../fonts/Aventador\ script.ttf);
+}
+
+@font-face {
+  font-family: CoopBlack;
+  src: url(../fonts/CoopBlack_Cyrillic_0.ttf);
+}
+
+@font-face {
+  font-family: EFN;
+  src: url(../fonts/EFN\ Lemon.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../media/images/fon.jpg);
+  /* height: 100vh; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: auto auto;
+  background-size: cover;
+
+}

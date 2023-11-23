@@ -1,14 +1,13 @@
 import React from "react";
-import Main from "./components/main/Main"
-// import logo from './logo.svg';
-// import './App.css';
+import Main from "./components/main/Main";
+
+import "./css/index.css";
 
 function App() {
   return (
-      <>
-        <Main/>
-      </>
-    
+    <div>
+      <Main />
+    </div>
   );
 }
 
