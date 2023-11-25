@@ -7,7 +7,7 @@
 
 .title,
 .text {
-  max-width: 620px;
+  max-width: 780px;
   margin-top: 20px;
   color: #2059f8;
   text-shadow: 2px 2px #fff;
@@ -31,7 +31,7 @@
 }
 
 .video-blok {
-  max-width: 620px;
+  max-width: 780px;
   max-height: auto;
   margin-top: 20px;
 }
