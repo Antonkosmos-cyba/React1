@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./main.css";
 
 import videon from "./video/nov.mp4";

@@ -4,21 +4,21 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <>
+    <div className="man">
       <nav>
         <ul>
           <li>
             <Link to="/">Главная</Link>
           </li>
           <li>
-            <Link to="/Foto">Фото</Link>
+            <Link to="/foto">Фото</Link>
           </li>
           <li>
-            <Link to="/Video">Видео</Link>
+            <Link to="/video">Видео</Link>
           </li>
         </ul>
       </nav>
-    </>
+    </div>
   );
 };
 

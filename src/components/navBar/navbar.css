@@ -1,0 +1,16 @@
+/* .man {
+  width: 300px;
+  height: auto;
+} */
+
+
+nav {
+  display: flex;
+  z-index: 1;
+}
+
+
+li {
+  font-size: 40px;
+  color: blue;
+}

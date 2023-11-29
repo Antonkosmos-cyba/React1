@@ -1,9 +1,11 @@
-// import React from "react";
+import React from "react";
+import "./foto.css";
+
 const Foto = () => {
   return (
-    <>
-      <p>Здет фото</p>
-    </>
+    <div className="foto">
+      <p>Здесь фото</p>
+    </div>
   );
 };
 

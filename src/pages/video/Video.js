@@ -1,8 +1,11 @@
+import React from "react";
+import "./video.css";
+
 const Video = () => {
   return (
-    <>
-      <p>Здет выдео</p>
-    </>
+    <div className="video">
+      <p>Здесь выдео</p>
+    </div>
   );
 };
 
