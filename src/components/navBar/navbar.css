@@ -1,10 +1,10 @@
-/* .man {
-  width: 300px;
+.man {
+  max-width: 700px;
   height: auto;
-} */
+}
 
 
-nav {
+ul {
   display: flex;
   z-index: 1;
 }

@@ -1,23 +1,32 @@
 import React from "react";
+import Main from "../../pages/main/Main";
+import Foto from "../../pages/foto/Foto";
+import Video from "../../pages/video/Video";
 import "./navbar.css";
-import { Link } from "react-router-dom";
+import { Routes, Route, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="man">
-      <nav>
+      <h1>anton</h1>
+      <nav children="menu">
         <ul>
           <li>
-            <Link to="/">Главная</Link>
+            <NavLink to="/">Главная</NavLink>
           </li>
           <li>
-            <Link to="/foto">Фото</Link>
+            <NavLink to="/foto">Фото</NavLink>
           </li>
           <li>
-            <Link to="/video">Видео</Link>
+            <NavLink to="/video">Видео</NavLink>
           </li>
         </ul>
       </nav>
+      <Routes>
+        <Route exact path="/" element={<Main />} />
+        <Route path="/foto" element={<Foto />} />
+        <Route path="/video" element={<Video />} />
+      </Routes>
     </div>
   );
 };

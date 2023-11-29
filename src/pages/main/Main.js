@@ -6,7 +6,7 @@ import videon from "./video/nov.mp4";
 
 const Main = () => {
   return (
-    <div className="container">
+    <div className="content">
       <div className="title">
         <p>С Новым годом!</p>
         <br /> <p>2024</p>
