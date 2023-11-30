@@ -1,15 +1,16 @@
 import React from "react";
-import Main from "../../pages/main/Main";
-import Foto from "../../pages/foto/Foto";
-import Video from "../../pages/video/Video";
+import Main from "../../pages/main/Main.js";
+import Foto from "../../pages/foto/Foto.js";
+import Video from "../../pages/video/Video.js";
 import "./navbar.css";
-import { Routes, Route, NavLink } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="man">
       <h1>anton</h1>
-      <nav children="menu">
+      <nav className="menu">
         <ul>
           <li>
             <NavLink to="/">Главная</NavLink>
