@@ -2,7 +2,7 @@ import React from "react";
 
 import "./main.css";
 
-import videon from "./video/nov.mp4";
+// import videon from "./video/nov.mp4";
 
 const Main = () => {
   return (
@@ -18,11 +18,11 @@ const Main = () => {
         Огоньки сверкают ярко. Свечи, шарики, подарки. Скоро сказка в дом
         войдет, Скоро будет Новый год!
       </div>
-      <div className="video-blok">
+      {/* <div className="video-blok">
         <video controls>
           <source src={videon} />
         </video>
-      </div>
+      </div> */}
     </div>
   );
 };

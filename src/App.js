@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/navBar/Navbar.js";
-import Footer from "./components/footer/Footer.js";
+// import Footer from "./components/footer/Footer.js";
 
 import "./css/index.css";
 
@@ -11,7 +11,7 @@ function App() {
       <div className="container">
         <Navbar />
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </BrowserRouter>
   );

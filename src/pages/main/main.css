@@ -4,7 +4,11 @@
   flex-direction: column;
   align-items: center;
 } */
+.content {
+  font-size: 60px;
+}
 
+/* 
 .title,
 .text {
   max-width: 780px;
@@ -38,7 +42,7 @@
 
 video {
   width: 100%;
-}
+} */
 
 @media (max-width: 426px) {
   .title {
