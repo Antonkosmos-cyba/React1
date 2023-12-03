@@ -1,7 +1,7 @@
 import React from "react";
 import Main from "../../pages/main/Main.js";
 import Foto from "../../pages/foto/Foto.js";
-import Video from "../../pages/videojs/Videoo.js";
+import Video from "../../pages/videojs/Video.js";
 import "./navbar.css";
 import { Routes, Route } from "react-router-dom";
 import { NavLink } from "react-router-dom";
