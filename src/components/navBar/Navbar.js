@@ -1,7 +1,7 @@
 import React from "react";
 import Main from "../../pages/main/Main.js";
 import Foto from "../../pages/foto/Foto.js";
-import Video from "../../pages/videojs/Video.js";
+import Video from "../../pages/videojs/Video.jsx";
 import "./navbar.css";
 import { Routes, Route } from "react-router-dom";
 import { NavLink } from "react-router-dom";
@@ -10,8 +10,8 @@ const Navbar = () => {
   return (
     <div className="man">
       <h1>anton</h1>
-      <nav className="menu">
-        <ul>
+      <nav>
+        <ul className="menu">
           <li>
             <NavLink to="/">Главная</NavLink>
           </li>
