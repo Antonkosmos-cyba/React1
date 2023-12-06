@@ -5,10 +5,12 @@ import { Vidaka } from "../../components/videoteka/Videoteka";
 function Video() {
   return (
     <div className="content">
-      <div className="video">
+      <div className="head">
         <p>тут Видео</p>
       </div>
-      <Vidaka />
+      <div>
+        <Vidaka />
+      </div>
     </div>
   );
 }

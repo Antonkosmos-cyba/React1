@@ -21,3 +21,7 @@ li {
   font-size: 40px;
   color: blue;
 }
+
+.no-underline {
+  text-decoration-line: none;
+}

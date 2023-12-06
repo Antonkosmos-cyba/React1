@@ -1,8 +1,14 @@
-/* .foto {
-  margin: 200px auto;
-  position: relative;
-  top: 200px;
-  font-size: 56px;
-  color: red;
+.content {
+  top: 100px;
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-} */
+.head {
+  margin: 50px auto;
+  font-size: 50px;
+}

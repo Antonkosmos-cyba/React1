@@ -3,8 +3,13 @@ import "./foto.css";
 
 const Foto = () => {
   return (
-    <div className="foto">
-      <p>Здесь фото</p>
+    <div className="content">
+      <div className="head">
+        <p>тут фото</p>
+      </div>
+      <div>
+        <fotelka />
+      </div>
     </div>
   );
 };
