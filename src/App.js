@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import Navbar from "./components/navBar/Navbar.js";
+import Navbar from "./components/navBar/Navbar.jsx";
 // import Footer from "./components/footer/Footer.js";
 
 import "./css/index.css";

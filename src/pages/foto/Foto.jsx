@@ -1,5 +1,6 @@
 import React from "react";
 import "./foto.css";
+import { Fototelka } from "../../components/fototelka/Fototelka";
 
 const Foto = () => {
   return (
@@ -8,7 +9,7 @@ const Foto = () => {
         <p>тут фото</p>
       </div>
       <div>
-        <fotelka />
+        <Fototelka />
       </div>
     </div>
   );

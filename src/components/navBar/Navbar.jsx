@@ -1,6 +1,6 @@
 import React from "react";
-import Main from "../../pages/main/Main.js";
-import Foto from "../../pages/foto/Foto.js";
+import Main from "../../pages/main/Main.jsx";
+import Foto from "../../pages/foto/Foto.jsx";
 import Video from "../../pages/videojs/Video.jsx";
 import "./navbar.css";
 import { Routes, Route } from "react-router-dom";
