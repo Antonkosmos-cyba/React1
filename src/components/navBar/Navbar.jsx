@@ -6,11 +6,12 @@ import "./navbar.css";
 import { Routes, Route } from "react-router-dom";
 // import { NavLink } from "react-router-dom";
 import { CustLink } from "../Customlink.jsx";
+import Sneg from "./favicon.ico";
 
 const Navbar = () => {
   return (
     <div className="man">
-      <h1>anton</h1>
+      <img className="logo" src={Sneg} alt="" max-width={50} height={50}></img>
       <nav>
         <ul className="menu">
           <li>

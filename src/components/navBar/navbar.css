@@ -1,7 +1,12 @@
 .man {
   display: flex;
   justify-content: space-between;
+  backdrop-filter: blur(7px);
+  max-width: 100%;
+}
 
+.logo {
+  margin-left: 70px;
 }
 
 .menu {
