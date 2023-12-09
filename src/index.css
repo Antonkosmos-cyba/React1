@@ -1,16 +1,16 @@
 @font-face {
   font-family: Aventador;
-  src: url(../fonts/Aventador\ script.ttf);
+  src: url(./assets/fonts/Aventador\ script.ttf);
 }
 
 @font-face {
   font-family: CoopBlack;
-  src: url(../fonts/CoopBlack_Cyrillic_0.ttf);
+  src: url(./assets/fonts/CoopBlack_Cyrillic_0.ttf);
 }
 
 @font-face {
   font-family: EFN;
-  src: url(../fonts/EFN\ Lemon.ttf);
+  src: url(./assets/fonts/EFN\ Lemon.ttf);
 }
 
 * {
@@ -20,7 +20,7 @@
 }
 
 body {
-  background-image: url(../media/images/fon.jpg);
+  background-image: url(./assets/images/fon.jpg);
 
   background-attachment: fixed;
   background-repeat: no-repeat;
