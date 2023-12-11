@@ -1,5 +1,9 @@
 import React from "react";
+import Main from "./pages/main/Main.jsx";
+import Foto from "./pages/foto/Foto.jsx";
+import Video from "./pages/videojs/Video.jsx";
 import { BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navBar/Navbar.jsx";
 import Footer from "./components/footer/Footer.jsx";
 
@@ -10,7 +14,11 @@ function App() {
     <BrowserRouter>
       <div className="container">
         <Navbar />
-
+        <Routes>
+          <Route exact path="/" element={<Main />} />
+          <Route path="/foto" element={<Foto />} />
+          <Route path="/video" element={<Video />} />
+        </Routes>
         <Footer />
       </div>
     </BrowserRouter>

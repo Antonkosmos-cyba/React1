@@ -2,7 +2,11 @@ import React from "react";
 import "./footer.css";
 
 function Footer() {
-  return <p>anton</p>;
+  return (
+    <footer>
+      <p>anton</p>
+    </footer>
+  );
 }
 
 export default Footer;

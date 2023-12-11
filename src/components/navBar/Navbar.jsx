@@ -1,9 +1,6 @@
 import React from "react";
-import Main from "../../pages/main/Main.jsx";
-import Foto from "../../pages/foto/Foto.jsx";
-import Video from "../../pages/videojs/Video.jsx";
+
 import "./navbar.css";
-import { Routes, Route } from "react-router-dom";
 // import { NavLink } from "react-router-dom";
 import { CustLink } from "../Customlink.jsx";
 import Sneg from "./favicon.ico";
@@ -31,11 +28,6 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <Routes>
-        <Route exact path="/" element={<Main />} />
-        <Route path="/foto" element={<Foto />} />
-        <Route path="/video" element={<Video />} />
-      </Routes>
     </div>
   );
 };
