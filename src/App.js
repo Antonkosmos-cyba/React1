@@ -14,11 +14,13 @@ function App() {
     <BrowserRouter>
       <div className="container">
         <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Main />} />
-          <Route path="/foto" element={<Foto />} />
-          <Route path="/video" element={<Video />} />
-        </Routes>
+        <div className="pages">
+          <Routes>
+            <Route exact path="/" element={<Main />} />
+            <Route path="/foto" element={<Foto />} />
+            <Route path="/video" element={<Video />} />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </BrowserRouter>

@@ -4,7 +4,7 @@ import "./footer.css";
 function Footer() {
   return (
     <footer>
-      <p>anton</p>
+      <p className="text-f">anton</p>
     </footer>
   );
 }

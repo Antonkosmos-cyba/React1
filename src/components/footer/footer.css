@@ -1,8 +1,13 @@
 footer {
+  flex-grow: 0;
   width: 100%;
   height: fit-content;
   font-size: 15px;
   backdrop-filter: blur(7px);
-  height: 80px;
-  margin-top: -80px;
+  text-align: center;
+}
+
+.text-f {
+  font-size: 25px;
+  line-height: 3;
 }

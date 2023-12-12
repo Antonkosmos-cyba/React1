@@ -36,3 +36,7 @@ body {
   height: 100vh;
   padding: 0px;
 }
+
+.pages {
+  flex-grow: 1;
+}
