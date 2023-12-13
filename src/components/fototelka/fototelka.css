@@ -8,4 +8,12 @@
 
 .card {
   max-width: 400px;
+  padding-bottom: 19px;
+}
+
+.title-card {
+  font-size: 30px;
+  text-align: center;
+  color: #2a481f;
+  text-shadow: #ccf3a7 2px 2px;
 }

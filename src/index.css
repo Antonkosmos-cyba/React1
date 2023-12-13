@@ -40,3 +40,10 @@ body {
 .pages {
   flex-grow: 1;
 }
+
+.head {
+  margin: 100px auto 50px auto;
+  font-size: 50px;
+  font-family: "EFN";
+  color: #1c811f;
+}

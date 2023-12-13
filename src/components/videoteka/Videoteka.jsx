@@ -32,7 +32,7 @@ export function Vidaka() {
                 max-width={400}
                 height={200}
               ></video>
-              <h1>{element.title}</h1>
+              <p className="title-card">{element.title}</p>
             </div>
           );
         })}

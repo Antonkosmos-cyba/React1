@@ -5,17 +5,17 @@ const elements = [
   {
     id: 1,
     fot: require("./foto/nov.jpg"),
-    title: "alala",
+    title: " Из камина дед Мороз, ",
   },
   {
     id: 2,
     fot: require("./foto/nov2.jpg"),
-    title: "puv",
+    title: "Вам печеньки всем принес!",
   },
   {
     id: 3,
     fot: require("./foto/nov3.jpg"),
-    title: "nuv",
+    title: "Кушайте на здоровье!",
   },
 ];
 
@@ -27,7 +27,7 @@ export function Fototelka() {
           return (
             <div key={element.id} className="card">
               <img src={element.fot} alt="" max-width={400} height={200}></img>
-              <h1>{element.title}</h1>
+              <p className="title-card">{element.title}</p>
             </div>
           );
         })}

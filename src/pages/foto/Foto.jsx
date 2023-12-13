@@ -6,7 +6,7 @@ const Foto = () => {
   return (
     <div className="content">
       <div className="head">
-        <p>тут фото</p>
+        <h5>С праздником!</h5>
       </div>
       <div>
         <Fototelka />

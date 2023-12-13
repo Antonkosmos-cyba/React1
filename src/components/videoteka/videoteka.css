@@ -9,4 +9,11 @@
 
 .card {
   max-width: 400px;
+  padding-bottom: 19px;
+}
+
+.title-card {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 30px;
 }
